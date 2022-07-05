@@ -7,7 +7,7 @@ Usage:
 - Enable Managed Identity
 - Add IAM access to the Managed Identity to manage SQL server
 - Set function enviroment variables: ResourceGroup and SQL server name
-- Call the endpoint: The endpoint is secured, auth is required:
+- Call the endpoint: The endpoint is secured, auth is required
 
 curl example:
-curl -X POST https://<functionName>.azurewebsites.net/api/SqlServerFirewallUpdate?code=<accesscode>
+curl -X POST https://FUNCTIONNAME.azurewebsites.net/api/SqlServerFirewallUpdate?code=ACCESSCODE
